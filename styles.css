@@ -1,0 +1,109 @@
+ div{
+    background: #44bad8;
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    margin:none;
+
+}
+
+.box{
+     background-color: beige;
+     left: 35%;
+     top: 50%;
+     box-sizing: border-box;
+     position: absolute;
+     width: 400px;
+     height: 80px;
+     animation-name: barraProg;
+     animation-duration: 3s;
+     border: 10px solid white;
+    }
+    .border{
+        left: 35%;
+        top: 50%;
+        width: 400px;
+        height: 80px;
+        border: 2px white solid;
+        border-radius: 5px;
+        background-color: white;
+        position: absolute;
+    }
+    
+    @keyframes barraProg {
+    0% {
+        border-color: rgb(243, 248, 246);
+        border: 10px solid white;
+        width: 50px;
+        height: 80px;
+        background-color: #49f3c0;;
+        color: aquamarine;
+
+    }
+    15% {
+        border-color: aquamarine;
+        border: 10px solid white;
+
+        width: 100px;
+        height: 80px;
+        background-color: #49f3c0;;
+
+    }
+    30% {
+        border-color: aquamarine;
+        border: 10px solid white;
+        width: 150px;
+        height: 80px;
+        background-color: #49f3c0;;
+
+    }
+    45% {
+        border-color: aquamarine;
+        border: 10px solid white;
+        width: 200px;
+        height: 80px;
+        background-color: #49f3c0;;
+
+    }
+    60% {
+        border-color: aquamarine;
+        border: 10px solid white;
+        width: 250px;
+        height: 80px;
+        background-color: #49f3c0;;
+
+    }
+    75% {
+        border-color: aquamarine;
+        border: 10px solid white;
+        width: 300px;
+        height: 80px;
+        background-color: #49f3c0;;
+
+    }
+    90% {
+        border-color: aquamarine;
+        border: 10px solid white;
+        width: 350px;
+        height: 80px;
+        background-color: #49f3c0;;
+
+    }
+    100% {
+        border-color: aquamarine;
+        border: 10px solid white;
+        width: 400px;
+        height: 80px;
+        background-color: #49f3c0;
+        
+
+    }
+    }
+
+ 
+  
+
+
+
